@@ -1,0 +1,76 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    color: #fccd07;
+
+    height: 50px;
+    padding: 5px 15px;
+}
+
+.menu button{
+    background-color: transparent;
+    border: 0;
+
+    color: #fccd07;
+}
+
+.menu .logo{
+    font-weight: bold;
+    font-size: 20px;
+
+    display: flex;
+    align-items:center;
+    gap: 5px;
+
+    cursor: pointer;
+}
+
+
+.menu .login{
+    padding: 8px 16px;
+    background-color: #fccd07;
+    color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu_lateral{
+    padding: 5px 15px;
+    height: 100vh;
+    width: 200px;
+
+    color: #333;
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu_lateral ul li{
+    margin-bottom: 15px;
+}
+
+.menu_lateral ul li:hover{ 
+    color:#fccd07 ;
+}
+
+.menu_lateral li{
+    list-style: none;
+}
+
+.menu_lateral .fechar {
+    display: flex;
+    justify-content: flex-end;
+
+    margin: 5px;
+    
+
+    cursor: pointer;
+}
+.menu_lateral .fechar :hover{
+    color:#fccd07 ;
+}

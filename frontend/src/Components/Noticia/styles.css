@@ -1,0 +1,27 @@
+.Noticia {
+    display: flex;
+    flex-direction: column;
+}
+
+.Noticia img {
+    width: 80%;
+    height: 40vh;
+
+}
+
+.Noticia .titulo{
+    font-size: 28px;
+    font-weight: bold;
+
+    padding: 2%;
+}
+
+.Noticia .container_img{
+    display: flex;
+    justify-content: center;
+}
+
+.Noticia .descricao{
+    font-size: 15px;
+    padding: 2%;
+}

@@ -1,0 +1,7 @@
+.grid-noticias{
+    display:grid;
+    grid-auto-flow: row;
+    gap: 30px;
+
+    justify-items: center;
+}
