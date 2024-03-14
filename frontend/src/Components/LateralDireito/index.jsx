@@ -1,9 +1,9 @@
 import React from 'react'
 
-const LateralEsquerdo = () => {
+const LateralDireito = () => {
   return (
-    <div>LateralEsquerdo</div>
+    <div>LateralDireito</div>
   )
 }
 
-export default LateralEsquerdo
+export default LateralDireito

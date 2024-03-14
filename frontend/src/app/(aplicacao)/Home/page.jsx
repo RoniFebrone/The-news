@@ -31,7 +31,7 @@ const HomePage = () => {
     return (
         <div className='grid-home'>
             <div>
-                <LateralEsquerdo />
+                <  LateralDireito/>
             </div>
             <div>
                 {noticias.map(noticia =>
@@ -39,7 +39,7 @@ const HomePage = () => {
                 }
             </div>
             <div>
-                <LateralDireito />
+                <LateralEsquerdo />
             </div>
         </div>
     )
